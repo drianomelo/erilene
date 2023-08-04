@@ -13,27 +13,38 @@
     <link href="https://fonts.googleapis.com/css2?family=REM:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
-<body class="h-full w-full font-REM font-normal">
+<body class="w-full h-full font-normal font-REM">
     <section class="bg-[#001925] w-full h-screen">
-        <header class="container relative justify-center flex pt-9 text-2xl items-center">
+        <header class="container relative flex items-center justify-center text-2xl pt-9">
             <div class="absolute left-0">
-                <h1 class="uppercase text-pink-600">Erilene <span class="text-white">Bolos</span></h1>
+                <h1 class="text-pink-600 uppercase">Erilene <span class="text-white">Bolos</span></h1>
             </div>
             <nav class="flex gap-16">
-                <a class="text-[#9BB9CB] font-light text-lg hover:text-pink-600" href="#">Sobre</a>
-                <a class="text-[#9BB9CB] font-light text-lg" href="#">Galeria</a>
-                <a class="text-[#9BB9CB] font-light text-lg" href="#">Produtos</a>
-                <a class="text-[#9BB9CB] font-light text-lg" href="#">Contatos</a>
+                <a class="text-[#9BB9CB] font-light text-lg  duration-200  flex items-center group hover:text-pink-600 hover:-translate-x-2 relative "
+                    href="#">Sobre<i
+                        class="absolute text-pink-600 duration-200 opacity-0 bottom-2 -right-10 fa-solid fa-cake-candles group-hover:opacity-100 group-hover:-translate-x-4"></i></a>
+                <a class="text-[#9BB9CB] font-light text-lg  duration-200  flex items-center group hover:text-pink-600 hover:-translate-x-2 relative "
+                    href="#">Galeria<i
+                        class="absolute text-pink-600 duration-200 opacity-0 bottom-2 -right-10 fa-solid fa-cake-candles group-hover:opacity-100 group-hover:-translate-x-4"></i></a>
+                <a class="text-[#9BB9CB] font-light text-lg  duration-200  flex items-center group hover:text-pink-600 hover:-translate-x-2 relative "
+                    href="#">Produtos<i
+                        class="absolute text-pink-600 duration-200 opacity-0 bottom-2 -right-10 fa-solid fa-cake-candles group-hover:opacity-100 group-hover:-translate-x-4"></i></a>
+                <a class="text-[#9BB9CB] font-light text-lg  duration-200  flex items-center group hover:text-pink-600 hover:-translate-x-2 relative "
+                    href="#">Contatos<i
+                        class="absolute text-pink-600 duration-200 opacity-0 bottom-2 -right-10 fa-solid fa-cake-candles group-hover:opacity-100 group-hover:-translate-x-4"></i></a>
             </nav>
-            <ul class="absolute right-0 top-8  p-10 gap-6 flex flex-col items-center bg-[#002834]">
-                <a class="text-[#9BB9CB] peer" href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a class="text-[#9BB9CB]" href="#"><i class="fa-brands fa-whatsapp"></i></a>
-                <a class="text-[#9BB9CB]" href="#"><i class="fa-regular fa-envelope"></i></a>
-                <a class="text-[#9BB9CB]" href="#"><i class="fa-regular fa-envelope"></i></a>
+            <div class="absolute right-0 top-8  p-10 gap-6 flex flex-col items-center bg-[#002834]">
+                <a class="text-[#9BB9CB] hover:text-pink-600 transition-colors duration-300 peer/instagram"
+                    href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a class="text-[#9BB9CB] hover:text-pink-600 transition-colors duration-300 peer/whatsapp"
+                    href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                <a class="text-[#9BB9CB] hover:text-pink-600 transition-colors duration-300" href="#"><i
+                        class="fa-regular fa-envelope"></i></a>
+                <a class="text-[#9BB9CB] hover:text-pink-600 transition-colors duration-300" href="#"><i
+                        class="fa-regular fa-envelope"></i></a>
                 <span
-                    class="absolute rotate-90 peer-hover:bottom-24 transition-all bg-pink-600 -bottom-5 text-base pt-2 px-5 pb-1 font-medium w-40">CONTATE-ME</span>
-            </ul>
-
+                    class="absolute w-40 px-5 pt-2 pb-1 text-base font-medium transition-all duration-300 rotate-90 bg-pink-600 peer-hover/instagram:bottom-24 peer-hover/whatsapp:bottom-10 -bottom-5">CONTATE-ME</span>
+            </div>
         </header>
     </section>
 
