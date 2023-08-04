@@ -49,7 +49,7 @@
         <div class="container relative pt-32 calc-100-64">
             <div class="bg-[#002834] w-[250px] h-[350px] ">
             </div>
-            <img class="absolute bottom-0 calc-100-128 left-3" src="{{asset('images/cake-home.png')}}" alt="Foto bolo">
+            <img class="absolute bottom-0 calc-100-140 left-3" src="{{asset('images/cake-home.png')}}" alt="Foto bolo">
         </div>
     </section>
 
