@@ -8,6 +8,8 @@
     @apply mx-auto;
 }
 
+
+
 .calc-100-64 {
     height: calc(100% - 64px);
 }
